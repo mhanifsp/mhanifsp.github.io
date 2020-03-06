@@ -42,7 +42,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-var url = "https://github.com/mhanifsp/geogeo/raw/master/topojson.json";
+var url = "https://raw.githubusercontent.com/mhanifsp/mhanifsp.github.io/master/d3firsttry/topojson.json";
 d3.json(url, function(error, topology) {
   if (error) console.log(error);
   
